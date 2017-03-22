@@ -28,6 +28,9 @@
 .form, .results{
 	float: left;
 }
+.form, input, textarea{
+	border-radius: 5px;
+}
 
 
 /*-------- Form Styles --------*/
