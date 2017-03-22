@@ -1,15 +1,16 @@
 /*-------- Utility Styles --------*/
 * {
 	box-sizing: border-box; 
+	font-family: "Proza Libre", sans-serif;
 	/* ^^^ Forces all elements to include content, padding, and border as part of their width/height calculation: 
 	http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 }
-
 /* 
 	Use Google Fonts to make all of the text Proza Libre.
 
 	Make the Title twice as large as the body text, bold, and give it some nice margin.
 */
+
 
 /*-------- Main Styles --------*/
 
@@ -20,6 +21,14 @@
 
 	Every container, form, input, and button should have rounded corners.
 */
+
+.container {
+	width: 100%;
+}
+.form, .results{
+	float: left;
+}
+
 
 /*-------- Form Styles --------*/
 
