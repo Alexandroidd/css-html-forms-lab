@@ -2,6 +2,7 @@
 * {
 	box-sizing: border-box; 
 	font-family: "Proza Libre", sans-serif;
+	padding: 5px;
 	/* ^^^ Forces all elements to include content, padding, and border as part of their width/height calculation: 
 	http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 }
@@ -24,12 +25,21 @@
 
 .container {
 	width: 100%;
+	margin: 0 auto;
 }
-.form, .results{
+.form, .results {
 	float: left;
+	width: 48%;
+	margin: 5px;
+	
 }
-.form, input, textarea{
+.form, input, textarea, .results{
 	border-radius: 5px;
+}
+section.container.results {
+	background-color: #C8DBB3;
+	padding: 20px;
+	/*padding: 5px;*/
 }
 
 
@@ -66,10 +76,67 @@
 	
 	
 */
+h1 {
+	font-size: 35px;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+}
 .container {
 	color: brown;
 }
+.form {
+	max-width: 500px;
+	background-color: #E3E6EC;
+	/*background-position: center;*/
+	margin: 0 auto;
 
+}
+.row {
+	padding: 20px;
+}
+.formGroup {
+	width: 100%;
+	display: inline-block;
+}
+.row label.oneLine {
+	display:block;
+}
+#mission,
+#name,
+#noun-1,
+#noun-2,
+#verb-1 {
+	width: 100%;
+}
+
+#mission,
+#name,
+#noun-1,
+#noun-2,
+#verb-1 {
+	border: 1px #CCC;
+	box-shadow: none;
+	height: 48px;
+}
+
+#mission {
+	height: 100px;
+}
+#wtf {
+	opacity;
+}
+#subBut {
+	border: none;
+	float: right;
+	font-style: bold;
+	box-shadow: none;
+	background-color: rgb(39, 208, 126);
+	opacity: 0.5;
+}
+
+#subBut:hover {
+	opacity: 1;
+}
 /*-------- Results Styles --------*/
 
 
